@@ -1,0 +1,21 @@
+body {
+  padding: 0.5em
+}
+
+svg {
+  border: 1px solid red;
+  display: block;
+  margin:auto;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
