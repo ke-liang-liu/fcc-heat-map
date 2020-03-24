@@ -3,7 +3,6 @@ body {
 }
 
 svg {
-  border: 1px solid red;
   display: block;
   margin:auto;
 }
@@ -18,4 +17,10 @@ svg {
     fill: none;
     stroke: black;
     shape-rendering: crispEdges;
+}
+.tick {
+  font-size: 1.2em;
+}
+#legend {
+  background-color: red;
 }
